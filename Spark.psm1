@@ -1,4 +1,4 @@
-# SparkModule.psm1
+# Spark.psm1
 
 function spark
 {
