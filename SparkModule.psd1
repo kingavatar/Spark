@@ -69,7 +69,7 @@
   # NestedModules = @()
 
   # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-  FunctionsToExport = @(spark)
+  FunctionsToExport = 'spark'
 
   # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
   CmdletsToExport = @()
@@ -107,7 +107,9 @@
       # IconUri = ''
 
       # ReleaseNotes of this module
-      # ReleaseNotes = ''
+      ReleaseNotes = @'
+    0.0.1 -- Initial Release -- 14 April 2023
+'@
 
       # Prerelease string of this module
       # Prerelease = ''
