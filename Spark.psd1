@@ -12,7 +12,7 @@
   RootModule = 'Spark.psm1'
 
   # Version number of this module.
-  ModuleVersion = '1.0.0'
+  ModuleVersion = '1.0.1'
 
   # Supported PSEditions
   # CompatiblePSEditions = @()
@@ -98,7 +98,9 @@
       Tags = 'Console', 'Sparklines', 'sparkline', 'spark', "PSEdition_Desktop", "PSEdition_Core", "Windows", "MacOS", "Linux"
 
       # A URL to the license for this module.
-      LicenseUri = 'https://raw.githubusercontent.com/kingavatar/SparkModule/main/LICENSE'
+      LicenseUri = 'https://raw.githubusercontent.com/kingavatar/Spark/main/LICENSE'
+
+      LICENSE = "https://raw.githubusercontent.com/kingavatar/Spark/main/LICENSE"
 
       # A URL to the main website for this project.
       ProjectUri = 'https://github.com/kingavatar/SparkModule'
@@ -109,6 +111,8 @@
       # ReleaseNotes of this module
       ReleaseNotes = @'
     1.0.0 -- Initial Release -- 14 April 2023
+
+    1.0.1 -- Change License URL
 '@
 
       # Prerelease string of this module
