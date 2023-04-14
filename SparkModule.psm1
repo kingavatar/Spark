@@ -1,9 +1,8 @@
 # SparkModule.psm1
-# spark.psm1
 
 function spark
 {
-  <# 
+  <#
     .SYNOPSIS
       This module is a very simple way to generate sparklines for powershell.
     .DESCRIPTION
@@ -30,6 +29,7 @@ function spark
     .LINK
       https://github.com/kingavatar/SparkModule
   #>
+  [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUseBOMForUnicodeEncodedFile', '')]
   [CmdletBinding()]
   param(
     [Parameter(Mandatory=$false)]
